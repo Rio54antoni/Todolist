@@ -1,0 +1,85 @@
+body {
+  background-color: aqua;
+  font-family: "Arial";
+  display: flex;
+  justify-content: center;
+}
+.todo-wrapper {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  font-weight: 250;
+}
+.todo-wrapper h2 {
+  margin: 0;
+}
+
+.todo-wrapper p {
+  font-style: italic;
+  color: gray;
+  margin: 5px 0;
+}
+
+.todo-wrapper ol {
+  margin: 2px 0;
+  cursor: pointer;
+}
+
+.toto-wrapper ol li {
+  margin: 5px 0;
+  padding: 3px;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5 ease-out;
+  -moz-transition: all 0.5 ease-out;
+  -ms-transition: all 0.5 ease-out;
+  -o-transition: all 0.5 ease-out;
+}
+
+.todo-wrapper form {
+  display: inline-block;
+}
+
+.todo-wrapper input {
+  padding: 3px 5px;
+  width: 400px;
+  border-radius: 3px;
+}
+
+.todo-wrapper .style-button:hover {
+  cursor: pointer;
+  opacity: 0, 7;
+}
+
+.todo-wrapper .style-button {
+  margin: 10px 2px;
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+  padding: 5px 20px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font-size: small;
+}
+
+#control-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+#clear-completed {
+  background-color: yellow;
+}
+
+#empty {
+  background-color: red;
+}
+
+#save {
+  background-color: green;
+}
